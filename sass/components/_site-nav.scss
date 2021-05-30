@@ -8,6 +8,7 @@
   }
   
   .site-nav__link {
+      display: flex;
       position: relative;
       color: $title-text-color;
       font-weight: 500;

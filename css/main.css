@@ -90,6 +90,9 @@ p {
 }
 
 .site-nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   color: #212121;
   font-weight: 500;
@@ -688,6 +691,10 @@ p {
   padding: 15px 16px 15px 16px;
 }
 
+.wrap-footer__input:hover, .wrap-footer__input:focus {
+  border: 1px solid #2196F3;
+}
+
 .wrap-footer__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -945,6 +952,7 @@ textarea {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
+  cursor: pointer;
 }
 
 .checkbox__input {
